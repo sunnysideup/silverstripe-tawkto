@@ -12,4 +12,9 @@ Very simple module for managing and injecting the required code for the tawk.to 
 
 # Usage
 
-Add the embed code in the site settings screen.  That's it!
+You'll need a tawk.to account.  Visit their site to get one:  https://tawk.to and get your embed code.
+
+Add the embed code in your site settings screen.  That's it!
+
+
+
