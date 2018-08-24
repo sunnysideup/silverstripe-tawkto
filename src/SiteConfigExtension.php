@@ -5,6 +5,7 @@ namespace DorsetDigital\TawkTo;
 
 use SilverStripe\Forms\TextareaField;
 use SilverStripe\ORM\DataExtension;
+use SilverStripe\Forms\FieldList;
 
 class SiteConfigExtension extends DataExtension
 {

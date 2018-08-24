@@ -1,4 +1,4 @@
 en:
   DorsetDigital\TawkTo\SiteConfigExtension:
-    EmbedFieldDescription: 'tawk.to embed code (not including <script> tags)'
+    EmbedFieldDescription: 'tawk.to embed code (not including script tags)'
     EmbedFieldTitle: 'Embed code'
