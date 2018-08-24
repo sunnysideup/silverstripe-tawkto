@@ -1,0 +1,12 @@
+---
+Name: 'dd-tawkto'
+After:
+- '*'
+---
+PageController:
+  extensions:
+  - DorsetDigital\TawkTo\PageControllerExtension
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+  - DorsetDigital\TawkTo\SiteConfigExtension

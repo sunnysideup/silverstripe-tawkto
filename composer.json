@@ -3,7 +3,11 @@
     "description": "Simple add-on to enable tawk.to chat on your site",
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
-    "keywords": ["silverstripe", "support", "chat"],
+    "keywords": [
+        "silverstripe",
+        "support",
+        "chat"
+    ],
     "authors": [
         {
             "name": "Tim Burt - Dorset Digital Ltd",
@@ -11,11 +15,11 @@
         }
     ],
     "require": {
-        "silverstripe/framework": "^4.0"
+        "silverstripe/recipe-cms": "^4"
     },
     "autoload": {
-     "psr-4": {
-      "DorsetDigital\\TawkTo\\": "src/"
-     }
+        "psr-4": {
+            "DorsetDigital\\TawkTo\\": "src/"
+        }
     }
 }
