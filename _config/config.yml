@@ -7,6 +7,6 @@ PageController:
   extensions:
   - DorsetDigital\TawkTo\PageControllerExtension
 
-SilverStripe\SiteConfig\SiteConfig:
+SiteConfig:
   extensions:
   - DorsetDigital\TawkTo\SiteConfigExtension

@@ -2,10 +2,6 @@
 
 namespace DorsetDigital\TawkTo;
 
-use SilverStripe\Core\Extension;
-use SilverStripe\SiteConfig\SiteConfig;
-use SilverStripe\View\Requirements;
-
 class PageControllerExtension extends Extension
 {
     /**
@@ -15,7 +11,7 @@ class PageControllerExtension extends Extension
     public function onAfterInit()
     {
         $config = SiteConfig::current_site_config();
-        if ($config->TawkToEmbedCode != "") {
+        if ($config->TawkToEmbedCode != '') {
             $embed = strip_tags($config->TawkToEmbedCode);
             Requirements::customScript($embed);
         }
