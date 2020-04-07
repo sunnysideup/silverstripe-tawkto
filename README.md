@@ -9,7 +9,7 @@ Very simple module for managing and injecting the required code for the tawk.to 
 
 
 # Requirements
-* Silverstripe 4.x
+* Silverstripe 3.x
 
 # Installation
 * Install the code with `composer require dorsetdigital/silverstripe-tawkto`
