@@ -2,10 +2,6 @@
 
 namespace DorsetDigital\TawkTo;
 
-use SilverStripe\Core\Extension;
-use SilverStripe\SiteConfig\SiteConfig;
-use SilverStripe\View\Requirements;
-
 class PageControllerExtension extends Extension
 {
     /**
